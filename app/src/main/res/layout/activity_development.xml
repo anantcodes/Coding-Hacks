@@ -265,11 +265,6 @@
             android:layout_marginBottom="100dp"
             android:background="@drawable/mybutton"/>
 
-
-
-
-
-
     </RelativeLayout>
 
 </ScrollView>
