@@ -3,6 +3,7 @@ package com.anant.codinghacks
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
 
@@ -19,6 +20,13 @@ class LoginActivity : AppCompatActivity() {
 
         etEmail=findViewById(R.id.etEmail)
         etPassword=findViewById(R.id.etPassword)
-        
+        if(etEmail.text.toString()=="xyz@gmail.com"&&etPassword.text.toString()=="12345")
+        {
+            Toast.makeText(this,"Login  successful", Toast.LENGTH_SHORT).show()
+        }
+        else
+        {
+            Toast.makeText(this,"Login  unsuccessful", Toast.LENGTH_SHORT).show()
+        }
     }
 }
