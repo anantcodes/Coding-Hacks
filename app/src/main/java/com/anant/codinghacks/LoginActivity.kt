@@ -1,5 +1,6 @@
 package com.anant.codinghacks
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -28,7 +29,9 @@ class LoginActivity : AppCompatActivity() {
     btnLogin.setOnClickListener{
         if(etEmail.text.toString()=="xyz@gmail.com"&&etPassword.text.toString()=="12345")
         {
-            Toast.makeText(this,"Login  successful", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this,"Login  successful", Toast.LENGTH_SHORT).show()
+            intent = Intent(applicationContext, MainActivity::class.java)
+            startActivity(intent)
         }
         else
         {
