@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(applicationContext, DevelopmentActivity::class.java)
             startActivity(intent)
         }
+        
+        btnPL.setOnClickListener{
+            intent = Intent(applicationContext, LanguageActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
