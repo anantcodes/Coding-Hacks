@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var txtBeg:TextView
     lateinit var txtInt: TextView
     lateinit var txtExp:TextView
+    lateinit var btnPro:TextView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         txtBeg=findViewById(R.id.txtBeg)
         txtInt=findViewById(R.id.txtInt)
         txtExp=findViewById(R.id.txtExp)
+        btnPro=findViewById(R.id.btnPro)
 
         btnDev.setOnClickListener{
             intent = Intent(applicationContext, DevelopmentActivity::class.java)
@@ -45,6 +47,11 @@ class MainActivity : AppCompatActivity() {
         txtExp.setOnClickListener {
             Toast.makeText(this,"Expert",Toast.LENGTH_SHORT).show()
         }
+        btnPro.setOnClickListener {
+            intent = Intent(applicationContext, ProgressActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
     }
