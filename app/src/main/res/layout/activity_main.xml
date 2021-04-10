@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Beginner"
         android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
         android:layout_marginStart="10dp"/>
 
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="Intermediate"
         android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
         android:layout_toEndOf="@+id/txtBeg"
         android:layout_marginStart="10dp"/>
@@ -31,6 +33,7 @@
         android:layout_height="wrap_content"
         android:text="Expert"
         android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
         android:layout_marginTop="50dp"
         android:layout_toEndOf="@+id/txtInt"
         android:layout_marginStart="10dp"/>
