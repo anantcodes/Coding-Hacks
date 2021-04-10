@@ -7,5 +7,9 @@ class ProgressActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_progress)
+
+// to implement Progress bar dynamically
+
+
     }
 }
