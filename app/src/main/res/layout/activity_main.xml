@@ -6,6 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtBeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txtInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intermediate"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/txtBeg"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txtExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expert"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/txtInt"
+        android:layout_marginStart="10dp"/>
+
+
 
     <Button
         android:id="@+id/btnDev"
