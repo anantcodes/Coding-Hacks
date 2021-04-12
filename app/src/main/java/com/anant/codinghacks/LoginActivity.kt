@@ -29,7 +29,6 @@ class LoginActivity : AppCompatActivity() {
     btnLogin.setOnClickListener{
         if(etEmail.text.toString()=="xyz@gmail.com"&&etPassword.text.toString()=="12345")
         {
-//            Toast.makeText(this,"Login  successful", Toast.LENGTH_SHORT).show()
             intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
