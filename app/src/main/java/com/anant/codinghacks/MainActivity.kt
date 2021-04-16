@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var txtInt: TextView
     lateinit var txtExp:TextView
     lateinit var btnPro:TextView
+    lateinit var btnQuestion:Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 //        txtInt=findViewById(R.id.txtInt)
 //        txtExp=findViewById(R.id.txtExp)
         btnPro=findViewById(R.id.btnPro)
+        btnQuestion=findViewById(R.id.btnQuestion)
 
         btnDev.setOnClickListener{
             intent = Intent(applicationContext, DevelopmentActivity::class.java)
@@ -35,6 +37,10 @@ class MainActivity : AppCompatActivity() {
         
         btnPL.setOnClickListener{
             intent = Intent(applicationContext, LanguageActivity::class.java)
+            startActivity(intent)
+        }
+        btnQuestion.setOnClickListener {
+            intent = Intent(applicationContext, QuestionsActivity::class.java)
             startActivity(intent)
         }
 
