@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#bbdefb"
     tools:context=".MainActivity">
 
 <!--    <TextView-->
@@ -69,6 +70,18 @@
         android:layout_below="@+id/btnDev"
         android:textColor="#FFFFFF"
         android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnQuestion"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPL"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Questions"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/btnPro"
