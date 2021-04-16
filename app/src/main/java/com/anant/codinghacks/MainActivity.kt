@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         btnDev=findViewById(R.id.btnDev)
         btnPL=findViewById(R.id.btnPL)
-        txtBeg=findViewById(R.id.txtBeg)
-        txtInt=findViewById(R.id.txtInt)
-        txtExp=findViewById(R.id.txtExp)
+//        txtBeg=findViewById(R.id.txtBeg)
+//        txtInt=findViewById(R.id.txtInt)
+//        txtExp=findViewById(R.id.txtExp)
         btnPro=findViewById(R.id.btnPro)
 
         btnDev.setOnClickListener{
@@ -38,15 +38,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        txtBeg.setOnClickListener {
-            Toast.makeText(this,"Beginner",Toast.LENGTH_LONG).show()
-        }
-        txtInt.setOnClickListener {
-            Toast.makeText(this,"Intermediate",Toast.LENGTH_SHORT).show()
-        }
-        txtExp.setOnClickListener {
-            Toast.makeText(this,"Expert",Toast.LENGTH_SHORT).show()
-        }
+//        txtBeg.setOnClickListener {
+//            Toast.makeText(this,"Beginner",Toast.LENGTH_LONG).show()
+//        }
+//        txtInt.setOnClickListener {
+//            Toast.makeText(this,"Intermediate",Toast.LENGTH_SHORT).show()
+//        }
+//        txtExp.setOnClickListener {
+//            Toast.makeText(this,"Expert",Toast.LENGTH_SHORT).show()
+//        }
         btnPro.setOnClickListener {
             intent = Intent(applicationContext, ProgressActivity::class.java)
             startActivity(intent)
