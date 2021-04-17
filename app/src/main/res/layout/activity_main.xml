@@ -80,7 +80,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:backgroundTint="@color/black"
-        android:text="Questions"
+        android:text="Check your level"
         android:textColor="#FFFFFF"/>
 
     <Button
