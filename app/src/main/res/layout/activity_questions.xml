@@ -11,7 +11,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textColor="#000000"
-    android:text="1.Where to place f with a double constant 3.14 to specify it as a float ?a) (f)(3.14) b) 3.14f c) f(3.14)" />
+    android:text="Q1.Where to place f with a double constant 3.14 to specify it as a float ?a) (f)(3.14) b) 3.14f c) f(3.14)" />
     <EditText
         android:id="@+id/Ans1"
         android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:layout_below="@+id/Ans1"
-        android:text="2. push() and pop() functions are found in A - queues B - lists C - stacks D - trees" />
+        android:text="Q2. push() and pop() functions are found in A - queues B - lists C - stacks D - trees" />
     <EditText
         android:id="@+id/Ans2"
         android:layout_width="wrap_content"
@@ -37,6 +37,34 @@
         android:background="@android:color/holo_red_dark"
         android:lines="1"
         android:hint="Enter A,B,C or D"/>
+
+
+    <TextView
+        android:id="@+id/Que3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_below="@+id/Ans2"
+        android:text="Q3. Linker generates ___ file.
+
+A - Object code
+
+B - Executable code
+
+C - Assembly code
+
+D - None of the above."    />
+    <EditText
+        android:id="@+id/Ans3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Que3"
+        android:background="@android:color/holo_red_dark"
+        android:lines="1"
+        android:hint="Enter A,B,C or D"/>
+
+
+   
 
 
 
