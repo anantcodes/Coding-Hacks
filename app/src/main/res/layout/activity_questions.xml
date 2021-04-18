@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que1"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B or C"/>
@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que2"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -72,7 +72,7 @@ D - None of the above."    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que3"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -98,7 +98,7 @@ D - []delete ptr;"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que4"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -125,7 +125,7 @@ D - All of the above"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que5"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -152,7 +152,7 @@ D - Friend function"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que6"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -173,7 +173,7 @@ D - Friend function"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que7"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -199,7 +199,7 @@ D -  Lambda function"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que8"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -224,7 +224,7 @@ D -  .andriod"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que9"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
@@ -248,7 +248,7 @@ D - JDB"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que10"
-        android:background="#2979ff"
+        android:background="#1e88e5"
         android:lines="1"
         android:padding="8dp"
         android:hint="Enter A,B,C or D"/>

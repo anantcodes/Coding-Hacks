@@ -61,7 +61,8 @@
             android:layout_below="@id/txtWebLang"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"/>
+            android:backgroundTint="#1e88e5"
+            />
 
 
         <TextView
@@ -101,7 +102,7 @@
             android:layout_below="@id/txtMobileLang"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"/>
+            android:backgroundTint="#1e88e5"/>
 
         <TextView
             android:id="@+id/txtDS"
@@ -140,7 +141,7 @@
             android:layout_below="@id/txtDSLang"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
+            android:backgroundTint="#1e88e5"
             />
 
 
@@ -181,7 +182,7 @@
             android:layout_below="@id/txtAPILang"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"/>
+            android:backgroundTint="#1e88e5"/>
 
 
         <TextView
@@ -221,7 +222,7 @@
             android:layout_below="@id/txtSSDLang"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"/>
+            android:backgroundTint="#1e88e5"/>
 
 
 
@@ -263,7 +264,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="100dp"
-            android:background="@drawable/mybutton"/>
+            android:backgroundTint="#1e88e5"/>
 
     </RelativeLayout>
 
