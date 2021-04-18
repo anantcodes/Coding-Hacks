@@ -148,7 +148,7 @@ D - Friend function"    />
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:layout_below="@+id/Ans6"
-        android:text="How many pointers are there in Java? A - One B - Two C - Zero D - Infinite"
+        android:text="Q7. How many pointers are there in Java? A - One B - Two C - Zero D - Infinite"
         />
 
     <EditText
@@ -168,19 +168,43 @@ D - Friend function"    />
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:layout_below="@+id/Ans7"
-        android:text="Which of following is used to handle null exceptions in Kotlin?
+        android:text="Q8. Which of following is used to handle null exceptions in Kotlin?
 
 A - Range
 B -  Sealed Class
 C -  Elvis Operator
 D -  Lambda function"/>
-       
+
 
     <EditText
         android:id="@+id/Ans8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que8"
+        android:background="@android:color/holo_red_dark"
+        android:lines="1"
+        android:hint="Enter A,B,C or D"/>
+
+
+    <TextView
+        android:id="@+id/Que9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_below="@+id/Ans8"
+        android:text="Q9. Which file extension is used to save Kotlin files.
+
+A -  .java
+B -  .kot
+C -  .kt or .kts
+D -  .andriod"/>
+
+
+    <EditText
+        android:id="@+id/Ans9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Que9"
         android:background="@android:color/holo_red_dark"
         android:lines="1"
         android:hint="Enter A,B,C or D"/>
@@ -200,7 +224,9 @@ D -  Lambda function"/>
 
 
 
-<Button
+
+
+    <Button
     android:id="@+id/btnSubmit"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
