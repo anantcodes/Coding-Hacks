@@ -38,6 +38,16 @@
 <!--        android:layout_marginTop="50dp"-->
 <!--        android:layout_toEndOf="@+id/txtInt"-->
 <!--        android:layout_marginStart="10dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODERS DAY OUT"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textSize="45sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#1e88e5"/>
 <TextView
     android:id="@+id/txtSelect"
     android:layout_width="wrap_content"
@@ -71,15 +81,26 @@
         android:textColor="#FFFFFF"
         android:backgroundTint="@color/black"/>
 
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your Level : "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btnPL"
+        android:layout_marginStart="20dp"/>
+
     <Button
         android:id="@+id/btnQuestion"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnPL"
-        android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtLevel"
+
         android:layout_marginStart="20dp"
         android:backgroundTint="@color/black"
+        android:layout_toEndOf="@+id/txtLevel"
         android:text="Check your level"
         android:textColor="#FFFFFF"/>
 
