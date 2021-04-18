@@ -12,13 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodingHacks">
-        <activity android:name=".QuestionsActivity"/>
+
         <activity android:name=".ProgressActivity" />
         <activity android:name=".DevelopmentActivity" />
         <activity android:name=".LanguageActivity" />
 
         <activity android:name=".MainActivity"/>
-            <activity android:name=".LoginActivity" >
+            <activity android:name=".LoginActivity" />
+        <activity android:name=".QuestionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
