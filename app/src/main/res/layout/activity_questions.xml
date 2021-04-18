@@ -21,14 +21,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textColor="#000000"
-    android:text="Q1.Where to place f with a double constant 3.14 to specify it as a float ?a) (f)(3.14) b) 3.14f c) f(3.14)" />
+    android:text="Q1.Where to place f with a double constant 3.14 to specify it as a float ? A - (f)(3.14) B -  3.14f C - f(3.14)" />
+
     <EditText
         android:id="@+id/Ans1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que1"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B or C"/>
 
 
@@ -44,8 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que2"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -69,8 +72,9 @@ D - None of the above."    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que3"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -94,8 +98,9 @@ D - []delete ptr;"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que4"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -120,8 +125,9 @@ D - All of the above"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que5"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -146,8 +152,9 @@ D - Friend function"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que6"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -166,8 +173,9 @@ D - Friend function"    />
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que7"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -191,8 +199,9 @@ D -  Lambda function"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que8"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
@@ -215,8 +224,9 @@ D -  .andriod"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que9"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
     <TextView
@@ -238,8 +248,9 @@ D - JDB"/>
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Que10"
-        android:background="@android:color/holo_red_dark"
+        android:background="#2979ff"
         android:lines="1"
+        android:padding="8dp"
         android:hint="Enter A,B,C or D"/>
 
 
