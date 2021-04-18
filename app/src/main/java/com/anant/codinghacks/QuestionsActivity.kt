@@ -21,6 +21,7 @@ class QuestionsActivity : AppCompatActivity() {
     lateinit var Ans9:EditText
     lateinit var Ans10:EditText
     lateinit var btnSubmit:Button
+    var c:Int=0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,18 +39,77 @@ class QuestionsActivity : AppCompatActivity() {
         Ans10=findViewById(R.id.Ans10)
         btnSubmit=findViewById(R.id.btnSubmit)
 
-        btnSubmit.setOnClickListener {
-            if(Ans1.text.toString()=="b")
-            {
-                Toast.makeText(this,"Pass", Toast.LENGTH_SHORT).show()
-            }
-            else
-            {
-                Toast.makeText(this,"Fail", Toast.LENGTH_SHORT).show()
-            }
 
+
+
+    btnSubmit.setOnClickListener {
+
+        if(Ans1.text.toString()=="b")
+        {
+            c++;
         }
 
+        if(Ans2.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans3.text.toString()=="b")
+        {
+            c++;
+        }
+
+        if(Ans4.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans5.text.toString()=="d")
+        {
+            c++;
+        }
+
+        if(Ans6.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans7.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans8.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans9.text.toString()=="c")
+        {
+            c++;
+        }
+
+        if(Ans10.text.toString()=="d")
+        {
+            c++;
+        }
+
+       // System.out.println("My name is Anant"+"c="+c)
+        if (c >= 9) {
+            Toast.makeText(this, "Expert", Toast.LENGTH_LONG).show()
+        }
+
+        if (c in 6..8) {
+
+            Toast.makeText(this, "Intermediate", Toast.LENGTH_LONG).show()
+        }
+        if(c<=5)
+        {
+
+            Toast.makeText(this, "Beginner", Toast.LENGTH_LONG).show()
+        }
+
+    }
 
 
     }
