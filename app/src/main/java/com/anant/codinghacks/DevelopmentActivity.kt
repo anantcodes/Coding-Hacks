@@ -37,5 +37,8 @@ class DevelopmentActivity : AppCompatActivity() {
         btnDS.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/what-is-data-science/")))
         }
+        btnAPI.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/introduction-to-apis/")))
+        }
     }
 }
