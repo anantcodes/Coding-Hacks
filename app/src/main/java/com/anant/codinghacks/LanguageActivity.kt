@@ -40,6 +40,9 @@ class LanguageActivity : AppCompatActivity() {
         btnCPlus.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/cpp-tutorial/")))
         }
+        btnC.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/c-programming-language/")))
+        }
 
     }
 }
