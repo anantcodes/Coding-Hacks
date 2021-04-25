@@ -37,6 +37,9 @@ class LanguageActivity : AppCompatActivity() {
         btnJava.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/java-tutorials/")))
         }
+        btnCPlus.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/cpp-tutorial/")))
+        }
 
     }
 }
