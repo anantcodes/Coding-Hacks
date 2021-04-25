@@ -29,9 +29,10 @@ class DevelopmentActivity : AppCompatActivity() {
         btnCC=findViewById(R.id.btnCC)
 
         btnWeb.setOnClickListener {
-
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/can-start-learn-web-development/")))
-
+        }
+        btnMobile.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tutorialspoint.com/mobile_development_tutorials.htm")))
         }
     }
 }
