@@ -52,6 +52,9 @@ class LanguageActivity : AppCompatActivity() {
         btnJS.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/javascript-tutorial/")))
         }
+        btnGo.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/")))
+        }
 
     }
 }
