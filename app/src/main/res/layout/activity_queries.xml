@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QueriesActivity">
+    tools:context=".QueriesActivity"
+    android:padding="16sp"
+    android:background="#bbdefb">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/texter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask your queries"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/etQuery"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Enter here"
+        android:layout_below="@+id/texter"
+       android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:gravity="start"/>
+
+    <Button
+        android:id="@+id/btnQue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etQuery"
+        android:backgroundTint="#1e88e5"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
