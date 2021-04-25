@@ -16,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
     lateinit var etPassword:EditText
     lateinit var btnLogin:Button
     lateinit var txtSignup:TextView
+    lateinit var forgot_password:TextView
 
 
 
@@ -28,6 +29,7 @@ class LoginActivity : AppCompatActivity() {
         etPassword=findViewById(R.id.etPassword)
         btnLogin=findViewById(R.id.button_login)
         txtSignup=findViewById(R.id.txtSignup)
+        forgot_password=findViewById(R.id.forgot_password)
 
     btnLogin.setOnClickListener{
         if(etEmail.text.toString()=="anant4265@gmail.com"&&etPassword.text.toString()=="12345")
@@ -43,6 +45,13 @@ class LoginActivity : AppCompatActivity() {
 
         txtSignup.setOnClickListener {
             intent = Intent(applicationContext, SignupActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+        forgot_password.setOnClickListener {
+            intent = Intent(applicationContext, ForgotPasswordActivity::class.java)
             startActivity(intent)
         }
 
