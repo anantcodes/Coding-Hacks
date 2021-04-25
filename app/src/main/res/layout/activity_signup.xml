@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#bbdefb"
-    tools:context=".LoginActivity">
+    tools:context=".SignupActivity"
+    android:background="#bbdefb">
 
     <ImageView
         android:id="@+id/photograph"
@@ -16,17 +16,46 @@
         app:srcCompat="@drawable/ch_books" />
 
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/etFname"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="205dp"
         android:background="@drawable/edit_text"
         android:layout_centerHorizontal="true"
         android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        />
+
+    <EditText
+        android:id="@+id/etLname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:layout_below="@+id/etFname"
+        />
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
-         />
+        android:layout_below="@+id/etLname"
+        />
 
     <EditText
         android:id="@+id/etPassword"
@@ -40,45 +69,31 @@
         android:layout_centerHorizontal="true"
         android:paddingLeft="16dp"
         android:layout_below="@+id/etEmail"
-         />
+        />
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/btnSignUp"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/black"
-        android:text="Login"
+        android:text="SignUp"
         android:textColor="#FFFFFF"
         android:layout_below="@id/etPassword"
         android:layout_centerHorizontal="true"
         />
 
     <TextView
-        android:id="@+id/forgot_password"
+        android:id="@+id/txtLogin"
         android:layout_width="wrap_content"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
-        android:text="Forgot password?"
+        android:text="Already have an account? Login here"
         android:textColor="#673AB7"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_below="@id/button_login"
+        android:layout_below="@id/btnSignUp"
         android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
-         />
-
-    <TextView
-        android:id="@+id/txtSignup"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_marginStart="8dp"
-        android:text="Don't have an account? SignUp now"
-        android:textColor="#673AB7"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@id/forgot_password"
-        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         />
 
