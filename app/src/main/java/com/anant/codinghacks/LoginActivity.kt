@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
         txtSignup=findViewById(R.id.txtSignup)
 
     btnLogin.setOnClickListener{
-        if(etEmail.text.toString()=="xyz@gmail.com"&&etPassword.text.toString()=="12345")
+        if(etEmail.text.toString()=="anant4265@gmail.com"&&etPassword.text.toString()=="12345")
         {
             intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
