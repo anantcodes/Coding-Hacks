@@ -40,5 +40,8 @@ class DevelopmentActivity : AppCompatActivity() {
         btnAPI.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/introduction-to-apis/")))
         }
+        btnSSD.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/principal-of-information-system-security-security-system-development-life-cycle/")))
+        }
     }
 }
