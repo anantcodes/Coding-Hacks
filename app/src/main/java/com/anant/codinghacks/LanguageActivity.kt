@@ -61,6 +61,10 @@ class LanguageActivity : AppCompatActivity() {
         btnHtml.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/html-tutorials/")))
         }
+        btnCSS.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/css-tutorials/")))
+
+        }
 
     }
 }
