@@ -43,5 +43,8 @@ class DevelopmentActivity : AppCompatActivity() {
         btnSSD.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/principal-of-information-system-security-security-system-development-life-cycle/")))
         }
+        btnCC.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/cloud-computing/")))
+        }
     }
 }
