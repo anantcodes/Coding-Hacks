@@ -34,5 +34,8 @@ class DevelopmentActivity : AppCompatActivity() {
         btnMobile.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tutorialspoint.com/mobile_development_tutorials.htm")))
         }
+        btnDS.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/what-is-data-science/")))
+        }
     }
 }
