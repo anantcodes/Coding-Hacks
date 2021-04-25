@@ -4,6 +4,131 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FaqActivity">
+    tools:context=".FaqActivity"
+    android:padding="16dp">
+
+<TextView
+    android:id="@+id/q1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What is the purpose of this app?"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Many college freshers or coding beginners usually have trouble in starting with a particular coding language, structure of the language or even development.
+Therefore this application will help an individual to learn and explore various coding fields."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q1"/>
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Development page about?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/a1"/>
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This page contains all development learning links."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q2"/>
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Language page about?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/a2"/>
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This page contains all language learning links."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q3"/>
+
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to check my level as a coder?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/a3"/>
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One can visit the Check Your Level page to test his knowledge."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q4"/>
+
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are the levels divided ?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/a4"/>
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beginner : 1 to 5 , Intermediate : 6 to 8 , Expert : 9 to 10"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q5"/>
+
+    <TextView
+        android:id="@+id/q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How is my progress tracked?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/a5"/>
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress bar moves linearly according to the number of questions attempted or read."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/q6"/>
+
+
+
+
+
+
+
+
+
+
 
 </RelativeLayout>
