@@ -46,6 +46,9 @@ class LanguageActivity : AppCompatActivity() {
         btnPython.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/python-tutorial/")))
         }
+        btnKotlin.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/kotlin-programming-language/")))
+        }
 
     }
 }
