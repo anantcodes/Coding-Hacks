@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodingHacks">
-        <activity android:name=".SplashActivity"></activity>
+        
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".QueriesActivity" />
@@ -22,7 +22,8 @@
         <activity android:name=".LanguageActivity" />
         <activity android:name=".QuestionsActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
