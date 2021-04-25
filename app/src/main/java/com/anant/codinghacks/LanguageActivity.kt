@@ -58,6 +58,9 @@ class LanguageActivity : AppCompatActivity() {
         btnCS.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/c-sharp-tutorial/")))
         }
+        btnHtml.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/html-tutorials/")))
+        }
 
     }
 }
