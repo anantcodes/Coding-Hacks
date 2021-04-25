@@ -43,6 +43,9 @@ class LanguageActivity : AppCompatActivity() {
         btnC.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/c-programming-language/")))
         }
+        btnPython.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.geeksforgeeks.org/python-tutorial/")))
+        }
 
     }
 }
