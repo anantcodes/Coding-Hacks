@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         forgot_password=findViewById(R.id.forgot_password)
 
     btnLogin.setOnClickListener{
-        if(etEmail.text.toString()=="anant4265@gmail.com"&&etPassword.text.toString()=="12345")
+        if((etEmail.text.toString()=="anant4265@gmail.com"&&etPassword.text.toString()=="12345") || (etEmail.text.toString()=="ha9947@srmist.edu.in"&&etPassword.text.toString()=="sepm") )
         {
             intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)

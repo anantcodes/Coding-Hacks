@@ -31,15 +31,8 @@ class SignupActivity : AppCompatActivity() {
         }
 
         btnSignUp.setOnClickListener {
-            if(etEmail.text.toString()=="anant4265@gmail.com"&&etPassword.text.toString()=="12345")
-            {
                 intent = Intent(applicationContext, MainActivity::class.java)
                 startActivity(intent)
-            }
-            else
-            {
-                Toast.makeText(this,"Login  unsuccessful", Toast.LENGTH_SHORT).show()
-            }
         }
 
 
