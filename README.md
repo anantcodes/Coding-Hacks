@@ -1,6 +1,6 @@
 # Coding-Hacks
 
-## Contributor
+## Contributors
 
 [Anant Kanchan](https://github.com/anantcodes)
 
